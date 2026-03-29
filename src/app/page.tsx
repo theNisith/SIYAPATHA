@@ -2,7 +2,8 @@ import Image from "next/image";
 import { MapPin } from "lucide-react";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
-import Sections from "@/components/Sections";
+import Quotes from "@/components/Quotes";
+import { ImpactSection, MissionSection } from "@/components/Sections";
 
 export default function Home() {
   return (
@@ -10,7 +11,9 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <Sections />
+        <MissionSection />
+        <Quotes />
+        <ImpactSection />
       </main>
 
       <footer
